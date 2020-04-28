@@ -1,0 +1,55 @@
+title: "FREE Ultimate Guide to CDA Interviews: Tips & Proven Strategies to Help You Prepare & Ace Your CDA Structured Interview."
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+columns:
+  - width: 1/1
+    fields:
+      indexed:
+        label: Would you like this page to be indexed by search engines?
+        type: radio
+        options:
+          indexed: Index page
+          nonindexed: Do not index page
+          required: true
+      metaDescription:
+        label: Meta Description
+        type: text
+      bannertext:
+        label: Banner Text
+        type: text
+      backgroundimage:
+        label: Background Image
+        type: files
+        multiple: false
+        required: true
+      contentHeader:
+        label: Content Header
+        type: text
+      contentOverview:
+        label: Content Overview
+        type: textarea
+      contentPurpose:
+        label: Purpose
+        type: textarea
+      contentHistory:
+        label: History
+        type: textarea
+      contentQuestions:
+        label: Questions
+        type: textarea
+      contentCompetencies:
+        label: Seven Competencies
+        type: textarea
+      contentStructure:
+        label: Structure
+        type: textarea
+      contentReference:
+        label: Reference
+        type: textarea

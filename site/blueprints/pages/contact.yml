@@ -1,0 +1,43 @@
+title: "Contact"
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+columns:
+  - width: 1/1
+    fields:
+      indexed:
+        label: Would you like this page to be indexed by search engines?
+        type: radio
+        options:
+          indexed: Index page
+          nonindexed: Do not index page
+          required: true
+        metaDescription:
+          label: Meta Description
+          type: text
+      bannerimage:
+        label: Banner Image
+        type: files
+        multiple: false
+        required: true
+      contentHeader:
+        label: Content Header
+        type: text
+      phoneNumber:
+        label: Phone Number
+        type: text
+      email:
+        label: Displayed Email
+        type: email
+      formRecipient:
+        label: Contact Form Recipient Email
+        type: email
+      afterFormNote:
+        label: After Form Note
+        type: textarea
